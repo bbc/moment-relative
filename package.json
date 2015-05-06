@@ -1,0 +1,22 @@
+{
+  "name": "moment-relative",
+  "version": "1.0.0",
+  "description": "Support for graphite-style relative times in Moment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "moment",
+    "relative",
+    "johan"
+  ],
+  "author": "ibl-team@lists.forge.bbc.co.uk",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "moment": "^2.10.2"
+  }
+}
