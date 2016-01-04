@@ -1,8 +1,12 @@
 {
   "name": "moment-relative",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Support for graphite-style relative times in Moment",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bbc/moment-relative.git"
+  },
   "scripts": {
     "test": "mocha"
   },

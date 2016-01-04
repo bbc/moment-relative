@@ -27,3 +27,4 @@ var someTimeAgo = now.relative('-5d3h5m');
 |d|Days|
 |h|Hours|
 |m|Minutes|
+|s|Seconds|
