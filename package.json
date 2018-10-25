@@ -15,8 +15,7 @@
     "relative",
     "johan"
   ],
-  "author": "ibl-team@lists.forge.bbc.co.uk",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "mocha": "^2.2.4"
   },
