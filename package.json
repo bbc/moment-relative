@@ -1,14 +1,20 @@
 {
   "name": "moment-relative",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Support for graphite-style relative times in Moment",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/bbc/moment-relative.git"
   },
+  "engines": {
+    "node": ">4.0.0"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint .",
+    "posttest": "npm run lint",
+    "coverage": "istanbul cover _mocha -- -R dot"
   },
   "keywords": [
     "moment",
@@ -17,9 +23,16 @@
   ],
   "license": "Apache-2.0",
   "devDependencies": {
-    "mocha": "^2.2.4"
+    "eslint": "^2.10.2",
+    "eslint-config-iplayer-es6": "^2.0.0",
+    "eslint-plugin-mocha": "^2.2.0",
+    "mocha": "^3.0.1",
+    "istanbul": "^0.4.2"
   },
   "dependencies": {
     "moment": "^2.10.2"
+  },
+  "eslintConfig": {
+    "extends": "iplayer-es6"
   }
 }
