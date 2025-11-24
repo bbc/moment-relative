@@ -15,7 +15,7 @@
     "test": "mocha",
     "lint": "eslint .",
     "posttest": "pnpm run lint",
-    "coverage": "istanbul cover _mocha -- -R dot"
+    "coverage": "nyc mocha && nyc report --reporter=html && nyc report --reporter=json-summary"
   },
   "keywords": [
     "moment",
@@ -28,7 +28,7 @@
     "eslint-config-iplayer-es6": "^2.0.0",
     "eslint-plugin-mocha": "^2.2.0",
     "mocha": "^3.0.1",
-    "istanbul": "^0.4.2"
+    "nyc": "^17.1.0"
   },
   "dependencies": {
     "moment": "^2.10.2"
