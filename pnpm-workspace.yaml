@@ -1,0 +1,36 @@
+packages:
+  - .
+
+catalogMode: manual
+
+engineStrict: true
+
+hoist: false
+
+ignoreDepScripts: true
+
+minimumReleaseAge: 10800
+
+minimumReleaseAgeExclude:
+  - '@bbc/*'
+  - '@ibl/*'
+
+overrides:
+  ajv@<6.12.3: '>=6.12.3'
+  debug@<2.6.9: '>=2.6.9'
+  diff@<3.5.0: '>=3.5.0'
+  growl@<1.10.0: '>=1.10.0'
+  js-yaml@<3.14.2: '>=3.14.2'
+  minimist@<0.2.1: '>=0.2.1'
+  minimist@<0.2.4: '>=0.2.4'
+  shelljs@<0.8.5: '>=0.8.5'
+
+publicHoistPattern:
+  - eslint-*
+  - '@eslint/*'
+  - '@typescript-eslint/*'
+  - jest
+
+recursiveInstall: false
+
+sharedWorkspaceLockfile: false

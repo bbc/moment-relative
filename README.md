@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-npm install moment-relative
+pnpm install moment-relative
 ```
 
 ## Usage
